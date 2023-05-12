@@ -7,7 +7,7 @@
 <p align="center"> ~In this tutorial, we will create Oraganizational Units (OU), Administrators and Employees.~
 </p>
 <br />
-<h2>High-Level View of Deployment and Configuration Steps</h2>
+<h2>Configuration Steps</h2>
 
 <ul>
   <li type =circle>Create an Administrator and a User Account in Active Directory<br>
