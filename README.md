@@ -18,10 +18,8 @@
 
 <h2>Create an Administrator and a "Normal User" Account in Active Directory</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-
-
+<li>Login to the Domain Controller (DC-1) as user: mydomain.com\Lab USer</li>
+<li>Click on Tools and click "Active Directory Users and Computers" </li>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/3zrM8Ua.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
