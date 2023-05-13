@@ -23,3 +23,11 @@
 <p>
 <img src="https://imgur.com/3zrM8Ua.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
+<li>To create your first Oraganizational Unit right click on your domain <br>(e.g. mydomain.com) and under "New" click "Organizational Unit"</li>
+<img src="https://imgur.com/HbM3U4h.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+
+<li>Enter the name "_EMPLOYEES" and click "OK"</li>
+<img src="https://imgur.com/5IwEAJG.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<li>Repeat these steps and make AN Oraganizational Unit named "_ADMINS"</li>
+<img src="https://imgur.com/0ZNjzBY.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+
