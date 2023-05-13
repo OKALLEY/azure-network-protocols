@@ -30,4 +30,5 @@
 <img src="https://imgur.com/5IwEAJG.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <li>Repeat these steps and make AN Oraganizational Unit named "_ADMINS"</li>
 <img src="https://imgur.com/0ZNjzBY.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-
+<lki>Right click your domain (e.g. mydomain.com) and click "Refresh"</li>
+<img src="https://imgur.com/19phcqk.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
