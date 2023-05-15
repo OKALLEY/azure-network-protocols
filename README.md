@@ -31,4 +31,19 @@
 <li>Repeat these steps and make AN Oraganizational Unit named "_ADMINS"</li>
 <img src="https://imgur.com/0ZNjzBY.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <lki>Right click your domain (e.g. mydomain.com) and click "Refresh"</li>
-<img src="https://imgur.com/19phcqk.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/19phcqk.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<li>Click on "_ADMINS" and right click inside the folder then under "New" select "User"</li>
+<img src="https://imgur.com/prVV4W4.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+
+<li>Name your administrator and create a User logon name <br> 
+  appropriate to your company policy (e.g. jane doe; jane_admin or a-jane)</li>
+<img src="https://imgur.com/5219Vay.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+
+<p>
+<li> Set the password. Normally the user would be required to change it, <br> but for this demonstration the password is set to never expire</li>
+<img src="https://imgur.com/mDhVUC4.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+  
+<li>Click on "Finish" once you have this completed</li>  
+<img src="https://imgur.com/0eGHYrO.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+  
+  
