@@ -58,3 +58,12 @@
 <img src="https://imgur.com/Hm8PDrd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
   
 <li>Next Log out / close the connection to DC-1 and log back in as "mydomain.com\jane_admin"</li>
+<li>Go back to portal.azure.com and copy the DC-1 Public IP address,<br>
+  access Remote Desktop Connection and paste it and click "Connect"</li>
+<li>Click on "More choices" choose "Use a different account"<br> 
+  and logon as "mydomain.com\jane_admin" </li>
+<img src="https://imgur.com/JodJx1B.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<li>Click "OK" and then "Yes"</li> 
+<img src="https://imgur.com/DwJSbOS.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+    
