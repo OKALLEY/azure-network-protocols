@@ -46,4 +46,15 @@
 <li>Click on "Finish" once you have this completed</li>  
 <img src="https://imgur.com/0eGHYrO.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
   
+<li>To make this name a administrator it needs to be assigned to the domain admins group. <br>
+  Right click on it and go to "Properties" </li>   
+<img src="https://imgur.com/3yrYOqc.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
   
+<li>Click on "Member Of" and then "Add..."</li>  
+<li>Find the section labeled "Enter the object names to select(examples):"</li> 
+<li>In this section type "domain" and click "Check Names"</li>  
+<img src="https://imgur.com/SVaLlb8.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<li>In the next window choose "Domain Admins" click "OK" and then "OK", "Apply" and then "OK"</li>
+<img src="https://imgur.com/Hm8PDrd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+  
+<li>Next Log out / close the connection to DC-1 and log back in as "mydomain.com\jane_admin"</li>
