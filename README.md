@@ -4,6 +4,7 @@
 
 <h1 align="center">This Tutorial is a continuation from: <br> <a href="https://github.com/OKALLEY/configure-ad">Configuring Active Directory within Azure VMs</a>
 </h1>
+<br>
 <p align="center"> ~In this tutorial, we will create Oraganizational Units (OU), Administrators and Employees.~
 </p>
 <br />
@@ -65,5 +66,7 @@
 <img src="https://imgur.com/JodJx1B.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <li>Click "OK" and then "Yes"</li> 
 <img src="https://imgur.com/DwJSbOS.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+<h2>Join Client-1 to the Domain</h2>  
   
     
