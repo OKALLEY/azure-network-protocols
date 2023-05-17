@@ -68,5 +68,19 @@
 <img src="https://imgur.com/DwJSbOS.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <h2>Join Client-1 to the Domain</h2>  
+ <li>From the Azure portal set Client-1's DNS settings to the domain controller's (DC-1) Private IP address</li> 
+ <li>Go to Virtual machines, click on DC-1 and click Networking</li>
+ <li>Locate and copy the NIC Private IP</li>
+ <img src="https://imgur.com/wp44R6G.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+ 
+ <p>
+
+  <li>Go back to Virtual machines and click on Client-1 and choose Networking</li>
+<li>Find "Network Interface:" and click on the client</li>
+<img src="https://imgur.com/1lUWlxX.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<li>Click DNS servers and under "DNS servers" click Custom and paste in the domain controller's Private IP address and then click "Save"</li>
+<img src="https://imgur.com/IR5Q6xe.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
   
-    
+
+ 
+<li>To change the domain click Start and </li>    
