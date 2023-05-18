@@ -117,4 +117,7 @@ FInd the window that reads "Welcome to the mydomain.com domain" and click "OK"
 <li>Open Remote Desktop Connection and paste it in</li>
 <li>Choose "Use a different account" and logon  as mydomain.com\jane_admin"</li>
 <img src="https://imgur.com/71vP6KX.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<li>As before click "Yes"</li>
+<img src="https://imgur.com/TePNbqX.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
 
