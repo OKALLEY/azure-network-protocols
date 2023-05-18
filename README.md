@@ -108,7 +108,7 @@ FInd the window that reads "Welcome to the mydomain.com domain" and click "OK"
 <img src="https://imgur.com/TyKEcQ4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <li>On the System Properties window click "Close"</li>
 <img src="https://imgur.com/ToptYKI.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-<li>Lastly click "Restart Now" the VM</li>
+<li>Lastly click "Restart Now" to restart the VM</li>
 <img src="https://imgur.com/Feio2zQ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 
