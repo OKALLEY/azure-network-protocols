@@ -73,14 +73,29 @@
  <li>Locate and copy the NIC Private IP</li>
  <img src="https://imgur.com/wp44R6G.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
  
- <p>
+ <br>
 
   <li>Go back to Virtual machines and click on Client-1 and choose Networking</li>
 <li>Find "Network Interface:" and click on the client</li>
 <img src="https://imgur.com/1lUWlxX.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<br>
 <li>Click DNS servers and under "DNS servers" click Custom and paste in the domain controller's Private IP address and then click "Save"</li>
 <img src="https://imgur.com/IR5Q6xe.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-  
 
- 
-<li>To change the domain click Start and </li>    
+<br>   
+<li>Go back to "Virtual machines" and select "Client-1" then click on "Restart"</li>    
+<img src="https://imgur.com/vRiJQdl.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+<br>
+<li>Copy the Public IP address for "Client-1" then <br> open Remote Desktop and paste it in and click "Connect"</li>
+<img src="https://imgur.com/rH7nwGy.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+<br>
+<li>Because it is not yet joined to the domain, logon as "Lab User"</li>
+<li>Click Yes and allow it to initialize</li>
+
+<li>Right click the Start button and click on "System"</li>
+<li>Click on "Rename PC (advanced)"</li>
+<li>Click on "Change..." and then "Domain" and type in "mydomain.com"</li>
+<img src="https://imgur.com/qBNATEN.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
