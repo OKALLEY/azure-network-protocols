@@ -96,6 +96,19 @@
 
 <li>Right click the Start button and click on "System"</li>
 <li>Click on "Rename PC (advanced)"</li>
-<li>Click on "Change..." and then "Domain" and type in "mydomain.com"</li>
+<li>Click on "Change..." and then "Domain" and type in "mydomain.com" and click "OK"</li>
 <img src="https://imgur.com/qBNATEN.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<li>In the next window you being asked to enter the name and password of an account with permission to join the domain.</li>
+<li>Enter "mydomain.com\jane_admin" then click "OK"<br>
+NOTE: Here you are entering the context of mydomain.com and the domain adminsitrator you created earlier</li>
+<img src="https://imgur.com/7mdOoWV.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+FInd the window that reads "Welcome to the mydomain.com domain" and click "OK"
+<img src="https://imgur.com/P8Ci0Y7.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<li>Click "OK" once the restart prompt appears.  </li>
+<img src="https://imgur.com/TyKEcQ4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<li>On the System Properties window click "Close"</li>
+<img src="https://imgur.com/ToptYKI.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<li>Lastly click "Restart Now" the VM</li>
+<img src="https://imgur.com/Feio2zQ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
 
