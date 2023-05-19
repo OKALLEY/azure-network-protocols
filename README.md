@@ -117,7 +117,25 @@ FInd the window that reads "Welcome to the mydomain.com domain" and click "OK"
 <li>Open Remote Desktop Connection and paste it in</li>
 <li>Choose "Use a different account" and logon  as mydomain.com\jane_admin"</li>
 <img src="https://imgur.com/71vP6KX.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
 <li>As before click "Yes"</li>
 <img src="https://imgur.com/TePNbqX.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+Right click the Start button and choose "System"
 
+<li>Under "Related settings" click on "Remote desktop"</li>
+<img src="https://imgur.com/8TExl0U.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<li>Find "User accounts" and click on "Select users that can remotely access this PC"</li>
+<img src="https://imgur.com/a5x8CwS.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+<li>In the next window click on "Add"</li>
+<img src="https://imgur.com/rW5SLxc.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+<li>Instead of adding thousands of users individually you will add a group called "Domain Users"</li>
+<li>In the box labeled "Enter the object names to select" type in domain users and click "Check Names"</li>
+<li>Notice that it gets populated and underlined. Click "OK"</li>
+<img src="https://imgur.com/RN6FE54.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+<li>You can now see who is allowed to login to this computer remotely; <br>
+all domain users have access. Click "OK"</li>
+<img src="https://imgur.com/UzGxBBs.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
