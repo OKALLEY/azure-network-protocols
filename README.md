@@ -148,3 +148,6 @@ all domain users have access. Click "OK"</li>
 <img src="https://imgur.com/YUiEvkV.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <li>Click on "Members" - All user accounts that get created get added to this domain users group automatically</li>
 
+<img src="https://imgur.com/ClSSdw2.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+
+
