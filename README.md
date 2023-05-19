@@ -133,9 +133,18 @@ Right click the Start button and choose "System"
 <li>Instead of adding thousands of users individually you will add a group called "Domain Users"</li>
 <li>In the box labeled "Enter the object names to select" type in domain users and click "Check Names"</li>
 <li>Notice that it gets populated and underlined. Click "OK"</li>
-<img src="https://imgur.com/RN6FE54.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/RN6FE54.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 
 <li>You can now see who is allowed to login to this computer remotely; <br>
 all domain users have access. Click "OK"</li>
 <img src="https://imgur.com/UzGxBBs.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+<h2>Additional Context</h2>
+<li>GO back to DC-1 and click Start</li>
+<li>Click on the "Windows Administrative Tools" folder and then "Active Directory Users and Computers"</li>
+<img src="https://imgur.com/IhSMXkr.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+
+<li>Click on "mydomain.com" click on the "Users" folder and then double click "Domain Users"</li>
+<img src="https://imgur.com/YUiEvkV.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<li>Click on "Members" -All user accounts that get created get added to this domain users group automatically</li>
 
