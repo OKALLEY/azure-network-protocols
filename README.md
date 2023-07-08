@@ -5,7 +5,7 @@
 <h1 align="center">This Tutorial is a continuation from: <br> <a href="https://github.com/OKALLEY/configure-ad">Configuring Active Directory within Azure VMs</a>
 </h1>
 <br>
-<p align="center"> ~In this tutorial, we will create Oraganizational Units (OU), Administrators and Employees.~
+<p align="center"> ~In this tutorial, we will create Organizational Units (OU), Administrators and Employees.~
 </p>
 <br />
 <h2>Configuration Steps</h2>
@@ -24,16 +24,16 @@
 <p>
 <img src="https://imgur.com/3zrM8Ua.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<li>To create your first Oraganizational Unit right click on your domain <br>(e.g. mydomain.com) and under "New" click "Organizational Unit"</li>
+<li>To create your first Organizational Unit right click on your domain <br>(e.g. mydomain.com) and under "New" click "Organizational Unit"</li>
 <img src="https://imgur.com/HbM3U4h.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <li>Enter the name "_EMPLOYEES" and click "OK"</li>
 <img src="https://imgur.com/5IwEAJG.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<li>Repeat these steps and make AN Oraganizational Unit named "_ADMINS"</li>
+<li>Repeat these steps and make AN Organizational Unit named "_ADMINS"</li>
 <img src="https://imgur.com/0ZNjzBY.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<lki>Right click your domain (e.g. mydomain.com) and click "Refresh"</li>
+<lki> Right-click your domain (e.g. mydomain.com) and click "Refresh"</li>
 <img src="https://imgur.com/19phcqk.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
-<li>Click on "_ADMINS" and right click inside the folder then under "New" select "User"</li>
+<li>Click on "_ADMINS" and right-click inside the folder then under "New" select "User"</li>
 <img src="https://imgur.com/prVV4W4.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <li>Name your administrator and create a User logon name <br> 
@@ -41,14 +41,14 @@
 <img src="https://imgur.com/5219Vay.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>
-<li> Set the password. Normally the user would be required to change it, <br> but for this demonstration the password is set to never expire</li>
+<li> Set the password. Normally the user would be required to change it, <br> but for this demonstration, the password is set to never expire</li>
 <img src="https://imgur.com/mDhVUC4.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
   
 <li>Click on "Finish" once you have this completed</li>  
 <img src="https://imgur.com/0eGHYrO.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
   
-<li>To make this name a administrator it needs to be assigned to the domain admins group. <br>
-  Right click on it and go to "Properties" </li>   
+<li>To make this name an administrator it needs to be assigned to the domain admins group. <br>
+  Right-click on it and go to "Properties" </li>   
 <img src="https://imgur.com/3yrYOqc.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
   
 <li>Click on "Member Of" and then "Add..."</li>  
@@ -61,7 +61,7 @@
 <li>Next Log out / close the connection to DC-1 and log back in as "mydomain.com\jane_admin"</li>
 <li>Go back to portal.azure.com and copy the DC-1 Public IP address,<br>
   access Remote Desktop Connection and paste it and click "Connect"</li>
-<li>Click on "More choices" choose "Use a different account"<br> 
+<li>Click on "More choices" and choose "Use a different account"<br> 
   and logon as "mydomain.com\jane_admin" </li>
 <img src="https://imgur.com/JodJx1B.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <li>Click "OK" and then "Yes"</li> 
@@ -94,15 +94,15 @@
 <li>Because it is not yet joined to the domain, logon as "Lab User"</li>
 <li>Click Yes and allow it to initialize</li>
 
-<li>Right click the Start button and click on "System"</li>
+<li> Right-click the Start button and click on "System"</li>
 <li>Click on "Rename PC (advanced)"</li>
 <li>Click on "Change..." and then "Domain" and type in "mydomain.com" and click "OK"</li>
 <img src="https://imgur.com/qBNATEN.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-<li>In the next window you being asked to enter the name and password of an account with permission to join the domain.</li>
+<li>In the next window you are asked to enter the name and password of an account with permission to join the domain.</li>
 <li>Enter "mydomain.com\jane_admin" then click "OK"<br>
-NOTE: Here you are entering the context of mydomain.com and the domain adminsitrator you created earlier</li>
+NOTE: Here you are entering the context of mydomain.com and the domain administrator you created earlier</li>
 <img src="https://imgur.com/7mdOoWV.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-FInd the window that reads "Welcome to the mydomain.com domain" and click "OK"
+Find the window that reads "Welcome to the mydomain.com domain" and click "OK"
 <img src="https://imgur.com/P8Ci0Y7.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <li>Click "OK" once the restart prompt appears.  </li>
 <img src="https://imgur.com/TyKEcQ4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -120,7 +120,7 @@ FInd the window that reads "Welcome to the mydomain.com domain" and click "OK"
 
 <li>As before click "Yes"</li>
 <img src="https://imgur.com/TePNbqX.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-Right click the Start button and choose "System"
+Right-click the Start button and choose "System"
 
 <li>Under "Related settings" click on "Remote desktop"</li>
 <img src="https://imgur.com/8TExl0U.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
